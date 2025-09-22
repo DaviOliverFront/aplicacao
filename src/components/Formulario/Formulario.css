@@ -1,0 +1,9 @@
+.Formulario{
+    text-align: center;
+}
+
+.Formulario form {
+    margin: 0 auto;
+    background-color: brown;
+    width: 80%;
+}
