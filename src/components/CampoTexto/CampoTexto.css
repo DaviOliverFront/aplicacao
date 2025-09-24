@@ -2,6 +2,7 @@
     text-align: center;
     margin: 24px 0;
 }
+
 .campo-texto label {
     display: block; /* Quebra a linha para o label */
     text-align: left; /* Alinha o texto do label à esquerda */
