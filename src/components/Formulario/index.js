@@ -5,7 +5,7 @@ import Botao from "../Botao/index.js";
 import { useState } from "react";
 
 
-const Formulario = () => {
+const Formulario = (props) => {
 
   const times = ["", "Presidência", "Diáconos", "Secretários", "Tesoureiros"];
 
@@ -16,7 +16,7 @@ const Formulario = () => {
 
   const aoSalvar = (evento) => {
     evento.preventDefault()
-    console.log('Form foi submetido', nome, cargo, imagem, time);
+    props.aoMembroCadastrado({ nome, cargo, imagem, time });
   }
 
   return (
