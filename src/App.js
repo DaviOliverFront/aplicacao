@@ -5,6 +5,8 @@ import { useState } from 'react';
 
 function App() {
 
+  const times = []
+
   const [membros, setMembros] = useState([]);
 
   const aoNovoMembroCadastrado = (membro) => {
