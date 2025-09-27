@@ -17,4 +17,5 @@
     width: 100%;
     box-sizing: border-box; /* adiciona esta linha para garantir que o padding seja incluído na largura total */
     margin-bottom: 36px;
+    color: #686767;
 }
