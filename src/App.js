@@ -5,7 +5,12 @@ import { useState } from 'react';
 
 function App() {
 
-  const times = []
+  const times = [
+    { nome: 'Presidência', corPrimaria: '#57C278', corSecundaria: '#D9F7E9' },
+    { nome: 'Diáconos', corPrimaria: '#82CFFA', corSecundaria: '#E8F8FF' },
+    { nome: 'Secretários', corPrimaria: '#A6D157', corSecundaria: '#F0F8E2' },
+    { nome: 'Tesoureiros', corPrimaria: '#E06B69', corSecundaria: '#FDE7E8' },
+  ]
 
   const [membros, setMembros] = useState([]);
 
@@ -18,10 +23,7 @@ function App() {
     <div className="App">
       <Banner/>
       <Formulario aoMembroCadastrado={membro => aoNovoMembroCadastrado(membro)}/>
-      <Time nome="Presidência"/>
-      <Time nome="Diáconos"/>
-      <Time nome="Secretários"/>
-      <Time nome="Tesoureiros"/>
+      {times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria}/>)}
     </div>
   );
 }
