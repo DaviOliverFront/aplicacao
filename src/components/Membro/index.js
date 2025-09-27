@@ -1,13 +1,13 @@
 import './Membro.css'
 
-const Membro = () => {
+const Membro = (props) => {
     return (<div className='Membro'> 
         <div className='cabecalho'>
-            <img src='https://github.com/DaviOliverFront.png' alt=''/>
+            <img src={props.imagem} alt={props.nome}/>
         </div>
         <div className='rodape'>
-            <h4>Davi Oliveira</h4>
-            <h5>Secretário</h5>
+            <h4>{props.nome}</h4>
+            <h5>{props.cargo}</h5>
         </div>
     </div>)
 }

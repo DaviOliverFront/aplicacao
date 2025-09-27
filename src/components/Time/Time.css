@@ -1,6 +1,6 @@
 .time {
     text-align: center;
-    padding: 32px;
+    padding: 20px;
     
 }
 
@@ -9,4 +9,12 @@
     border-bottom: 4px solid;
     display: inline-block;
     padding-bottom: 8px;
+}
+
+.time .membros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
 }
