@@ -1,8 +1,12 @@
 .Banner {
-    background-color: #2b5f9b;
     text-align: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #2b5f9b;
+    width: 100%;
 }
 
 .Banner img {
     max-width: 100%;
+    height: auto;
 }
