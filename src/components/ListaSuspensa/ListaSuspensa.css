@@ -2,8 +2,9 @@
     display: block; /* Quebra a linha para o label */
     text-align: left; /* Alinha o texto do label à esquerda */
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 8px;
+    color:#2b5f9b;
 }
 
 .lista-suspensa select{

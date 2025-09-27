@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .formulario {
     display: flex;
     justify-content: center;
     margin: 80px 0;
+    font-family: "Inter", sans-serif;
 }
+
+.formulario h2 {
+    color: #2b5f9b;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+    
 
 .formulario form {
     max-width: 80%;
