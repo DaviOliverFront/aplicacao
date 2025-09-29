@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.rodape {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 12px;
+    background-color: #2b5f9b;
+    color: #d7d3c7;;
+}
+
+.redes-sociais svg  {
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.redes-sociais svg:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.descricao, .desenvolvedor {
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    align-items: center;   
+    display: flex;
+}
+
+.desenvolvedor {
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.desenvolvedor a {
+    color: #c5b68a;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.desenvolvedor a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
