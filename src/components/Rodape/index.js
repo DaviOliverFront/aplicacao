@@ -4,11 +4,9 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
 
-
-
 const Rodape = () => {
     return (
-        <footer className='rodape'>
+        <footer className='footer'>
             <div className='redes-sociais'>
                 <p>
                     <FaWhatsapp />

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.rodape {
+.footer {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -13,6 +13,11 @@
 .redes-sociais svg  {
     padding: 15px;
     transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.redes-sociais p {
+    padding-left: 55px;
 }
 
 .redes-sociais svg:hover {
