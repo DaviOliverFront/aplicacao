@@ -4,21 +4,20 @@ import ListaSuspensa from "../ListaSuspensa/index.js";
 import Botao from "../Botao/index.js";
 import { useState } from "react";
 
-
 const Formulario = (props) => {
 
-  const [nome, setNome] = useState('');
-  const [cargo, setCargo] = useState('');
-  const [imagem, setImagem] = useState('');
-  const [time, setTime] = useState('');
+  const [nome, setNome] = useState('')
+  const [cargo, setCargo] = useState('')
+  const [imagem, setImagem] = useState('')
+  const [time, setTime] = useState('')
 
   const aoSalvar = (evento) => {
     evento.preventDefault()
-    props.aoMembroCadastrado({ nome, cargo, imagem, time });
-    setNome('');
-    setCargo('');
-    setImagem('');
-    setTime('');
+    props.aoMembroCadastrado({ nome, cargo, imagem, time })
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('')
   }
 
   return (

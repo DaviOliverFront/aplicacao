@@ -15,7 +15,6 @@ function App() {
   const [membros, setMembros] = useState([]);
 
   const aoNovoMembroCadastrado = (membro) => {
-    console.log(membro);
     setMembros([...membros, membro]);
   }
 
