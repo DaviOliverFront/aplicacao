@@ -16,9 +16,15 @@ function App() {
   const [membros, setMembros] = useState([]);
 
   const aoNovoMembroCadastrado = (membro) => {
-    console.log(membro);
-    setMembros([...membros, membro]);
-  }
+    // 1. Cria um ID único usando o timestamp atual.
+    const novoMembroComId = {
+        ...membro,
+        id: Date.now() + Math.random(), // Garante que o ID é sempre único
+    };
+    
+    // 2. Adiciona o novo membro com ID ao estado
+    setMembros(membrosAtuais => [...membrosAtuais, novoMembroComId]);
+}
 
   return (
     <div className="App">
