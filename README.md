@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🖼️ BoardViewer IBF
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+O **BoardViewer IBF** é uma aplicação web desenvolvida para atuar como uma galeria digital e um sistema de visualização dos membros da diretoria de uma Igreja Batista (IBF).
 
-### `npm start`
+O principal objetivo do projeto é oferecer uma interface limpa e organizada para exibir os líderes e a estrutura de governança da igreja, facilitando a identificação e o reconhecimento dos membros da diretoria.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O sistema visa fornecer as seguintes funcionalidades principais:
 
-### `npm test`
+- **Criação de Cards de Membros:** Capacidade de criar cards detalhados para cada membro da diretoria.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Informações Essenciais:** Cada card exibe o Nome completo do membro, a Imagem de perfil e o Cargo que ocupa na diretoria.
 
-### `npm run build`
+- **Organização por Categoria:** Os cards são categorizados de acordo com a área de atuação ou o tipo de cargo dentro da diretoria.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Visualização Simples:** Uma interface intuitiva e responsiva para a visualização da galeria.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este projeto foi construído com foco em bibliotecas e linguagens modernas para o desenvolvimento Front-end:
 
-### `npm run eject`
+- **Biblioteca Principal:**	`React (JavaScript)`
+- **Linguagem Base:**	`JavaScript (JS)`
+- **Estrutura:**	`HTML5`
+- **Estilização:**	`CSS3 (Com o uso de CSS Modules ou Styled Components para escopo)`
+- **Ícones:**	`React Icons (react-icons)`
+- **Gerenciamento de Pacotes:**	`NPM (Node Package Manager)`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# ⚙️🚀 Como Rodar o Projeto Localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para clonar e executar o BoardViewer IBF em sua máquina local, siga os passos abaixo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ __Pré-requisitos__
+ Certifique-se de ter o Node.js e o NPM (Node Package Manager) instalados em seu sistema.
 
-## Learn More
+ 1. **Clonar o Repositório:**
+ `Bash`
+ [Link Repositório](https://github.com/DaviOliverFront/aplicacao.git)
+ cd aplicacao
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 2. **Instalar Dependências:**
+ ### `npm install`
+   Instala todas as dependências do React listadas no package.json.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ### `npm install react-icons`
+   Instala especificamente a biblioteca de ícones utilizada.
 
-### Code Splitting
+ 3. **Iniciar Aplicação**
+ ### `npm start`
+    A aplicação será aberta automaticamente em seu navegador padrão, 
+    geralmente em `[http://localhost:3000](http://localhost:3000).`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ # 👤 Autor
+ ([[Davi Oliveira Sousa](https://www.linkedin.com/in/davi-oliveira-089a4321a/)])
