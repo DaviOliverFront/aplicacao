@@ -1,6 +1,6 @@
 # 🖼️ BoardViewer IBF
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app)
 
 ## Visão Geral
 
@@ -39,7 +39,7 @@ Para clonar e executar o BoardViewer IBF em sua máquina local, siga os passos a
  __Pré-requisitos__
  Certifique-se de ter o Node.js e o NPM (Node Package Manager) instalados em seu sistema.
 
- 1. **Clonar o Repositório:**
+ 1. **Clonar o Repositório:** \
  `Bash`
  [Link Repositório](https://github.com/DaviOliverFront/aplicacao.git)
  cd aplicacao
@@ -57,4 +57,5 @@ Para clonar e executar o BoardViewer IBF em sua máquina local, siga os passos a
     geralmente em `[http://localhost:3000](http://localhost:3000).`
 
  # 👤 Autor
- ([[Davi Oliveira Sousa](https://www.linkedin.com/in/davi-oliveira-089a4321a/)])
+ ([[ Davi Oliveira Sousa ](https://www.linkedin.com/in/davi-oliveira-089a4321a/)]) 
+ Clique e saiba mais! 
