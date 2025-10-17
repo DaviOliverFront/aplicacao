@@ -56,6 +56,11 @@ Para clonar e executar o BoardViewer IBF em sua máquina local, siga os passos a
     A aplicação será aberta automaticamente em seu navegador padrão, 
     geralmente em `[http://localhost:3000](http://localhost:3000).`
 
- # 👤 Autor
- ([[ Davi Oliveira Sousa ](https://www.linkedin.com/in/davi-oliveira-089a4321a/)]) 
- Clique e saiba mais! 
+---
+### ✒️ Autor
+
+Projeto mantido por **[Davi Oliveira Sousa](https://github.com/DaviOliverFront)**.
+
+> 🤝 **[Conecte-se e saiba mais!](https://www.linkedin.com/in/davi-oliveira-089a4321a/)**
+
+---
